@@ -13,7 +13,7 @@ public class CafeTest {
         Cafe cafe = new Cafe();
         cafe.restockBeans(7);
         Coffee coffee = cafe.brew(CoffeeType.Espresso);
-
+        System.out.println("cool");
         //it is an espress!
         //no milk
         //that we've got enough coffee
