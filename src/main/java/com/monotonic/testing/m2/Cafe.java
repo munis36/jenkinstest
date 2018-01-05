@@ -34,6 +34,7 @@ public final class Cafe {
         requirePositive(weightInLitres);
         milkInStock += weightInLitres;
     }
+    
     private void requirePositive(int qty){
         if(qty < 1){
             throw new IllegalArgumentException();
