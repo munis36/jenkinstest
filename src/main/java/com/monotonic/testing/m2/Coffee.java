@@ -28,6 +28,7 @@ public final class Coffee {
 
     @Override
     public String toString() {
+        System.out.println("test");
         return "Coffee{" +
                 "type=" + type +
                 "milk=" + milk +
